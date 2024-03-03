@@ -10,7 +10,6 @@ const methodOverride = require("method-override");
 const ExpressError = require("./utils/ExpressError.js");
 const ejsMate = require("ejs-mate");
 const port = 8080;
-// const MONGO_URL = "mongodb://127.0.0.1:27017/wanderlust";
 const dbUrl = process.env.ATLASDB_URL;
 const listings = require("./routes/listing.js");
 const reviews = require("./routes/reviews.js");
