@@ -1,0 +1,112 @@
+<%layout("/layouts/boilerplate")%>
+<div class="newbody">
+  <h2 class="headingnew">Editing Listing: <%=listItem.title%></h2>
+  <form
+    id="editlt"
+    class="newform"
+    method="post"
+    action="/listings/<%= listItem._id %>?_method=PUT"
+    enctype="multipart/form-data"
+    novalidate
+  >
+    <div>
+      <label for="titlenew">Title:</label> <br /><input
+        type="text"
+        id="titlenew"
+        class="inpnew"
+        value="<%=listItem.title%>"
+        name="listing[title]"
+        placeholder="input title"
+        required
+      />
+      <div class="error"></div>
+    </div>
+    <div>
+      <label for="descnew">Description:</label> <br />
+      <input
+        type="text"
+        id="descnew"
+        class="inpnew"
+        value="<%=listItem.description%>"
+        name="listing[description]"
+        placeholder="enter desc..."
+        required
+      />
+      <div class="error"></div>
+    </div>
+    <div>
+      <p>Old Upload</p>
+      <img src="<%=newUrl%>" alt="Old_img" />
+    </div>
+    <div>
+      <p>Upload Image:</p>
+      <label for="imagenew" class="inpnewFile">Choose Image</label>
+      <input
+        name="listing[image]"
+        id="imagenew"
+        type="file"
+        class="filenew inpnew"
+        onchange="displayFileName()"
+        value="<%= listItem.image.url %>"
+        placeholder="give link of the image"
+      />
+      <div class="error fileNae"></div>
+    </div>
+    <div>
+      <label for="pricenew">Price:</label>
+      <br /><input
+        type="number"
+        id="pricenew"
+        class="inpnew"
+        name="listing[price]"
+        placeholder="enter price"
+        required
+        value="<%=listItem.price%>"
+      />
+      <div class="error"></div>
+    </div>
+
+    <div>
+      <label for="locationnew">Location:</label>
+      <br /><input
+        type="text"
+        id="locationnew"
+        class="inpnew"
+        name="listing[location]"
+        placeholder="enter location"
+        required
+        value="<%=listItem.location%>"
+      />
+      <div class="error"></div>
+    </div>
+    <div>
+      <label for="countrynew">Country:</label>
+      <br /><input
+        type="text"
+        id="countrynew"
+        class="inpnew"
+        name="listing[country]"
+        placeholder="enter country"
+        required
+        value="<%=listItem.country%>"
+      />
+      <div class="error"></div>
+    </div>
+    <div>
+      <label for="categoryNew">Select Category:</label>
+      <br /><%- include("../includes/category.ejs") %>
+      <div class="error"></div>
+    </div>
+    <button type="submit" class="newbtn">Edit</button>
+  </form>
+  <script>
+    function displayFileName() {
+      const input = document.getElementById("imagenew");
+      const fileNameDisplay = document.querySelector(".fileNae");
+      if (fileNameDisplay && input) {
+        const fileName = input.files[0].name;
+        fileNameDisplay.textContent = fileName;
+      }
+    }
+  </script>
+</div>

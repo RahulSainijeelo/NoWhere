@@ -1,0 +1,37 @@
+<%layout("/layouts/boilerplate")%>
+<div style="display: flex;justify-content: center !important;">
+  <div
+    style="
+      text-align: center;
+      font-size: 1.5em;
+      display: inline-block;
+      color: black;
+      margin-top: 10vh;
+      border-radius: 10px;
+      background: linear-gradient(rgb(255, 0, 0, 0.5), rgba(255, 0, 195, 0.5));
+      box-shadow: 1px 0px 5px 3px rgba(0,0,0,0.39);
+      margin-bottom: 50px;
+      padding: 10px;
+    "
+  >
+    <p
+      style="
+        display: inline !important;
+        font-size: smaller;
+        font-weight: 600;
+        text-align: start;
+      "
+    >
+      <%= message %>
+    </p>
+    <br />
+  </div>
+  <script>
+    const listpg = document.querySelector(".redanc");
+    if(listpg){
+      setTimeout(() => {
+      listpg.click();
+    }, 8000);
+    }
+  </script>
+</div>

@@ -1,0 +1,35 @@
+<%layout("/layouts/boilerplate")%>
+<%if(listings.length>0){%>
+  <div class="showBody">
+    <p style="color: green; text-align: center;">
+      No Results Found for the Query: <%= query %>
+    </p>
+    <% for(list of listings) {%>
+    <div class="showbd searchResult">
+        <a href="/listings/<%=list._id%>" class="list-link">
+          <div class="shodivim">
+            <img src="<%=list.image.url%>" class="showdim" alt="refimg" />
+          </div>
+          <div class="showdt">
+            <p class="crd-text"><%=list.location %>,</p>
+            <p class="crd-text"><%=list.country %></p>
+            <p class="crd-text" style="display: block; font-weight: 500">
+              <%=list.title %>
+            </p>
+            <h6 class="price">
+              Price: <%=list.price.toLocaleString("en-IN", { style: "currency",
+              currency: "INR" })%>/Night
+            </h6>
+          </div>
+        </a>
+      </div>
+      <% } %>
+  </div>
+  
+<%}else{%>
+  <div class="showBody">
+    <p style="color: green; text-align: center;">
+      No Results Found for the Query: <%= query %>
+    </p>
+  </div>
+<%}%>

@@ -1,0 +1,21 @@
+<%layout("/layouts/boilerplate")%>
+<div class="mobolistdiv">
+  <div class="listings">
+    <% for(list of listings) {%> 
+      <div class="crd list-card">
+        <a href="/listings/<%=list._id%>" class="list-link">
+          <img src="<%=list.image.url%>" class="crd-img-top" alt="refimg" />
+          <div class="crd-body">
+            <p class="crd-text"><%=list.location %>,</p>
+            <p class="crd-text"><%=list.country %></p>
+            <p class="crd-text" style="display: block;font-weight: 500;"><%=list.title %></p>
+            <h6 class="price">
+              Price: <%=list.price.toLocaleString("en-IN", { style: "currency",
+              currency: "INR" })%>/Night
+            </h6>
+          </div>
+        </a>
+      </div>
+    <% } %>
+  </div>
+</div>

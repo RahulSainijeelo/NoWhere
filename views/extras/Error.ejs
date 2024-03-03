@@ -1,0 +1,51 @@
+<%layout("/layouts/boilerplate")%>
+<div style="display: flex; justify-content: center !important;">
+  <div
+    style="
+      text-align: center;
+      font-size: 1.5em;
+      word-wrap: break-word;
+      color: black;
+      margin-top: 10vh;
+      border: 1px solid white;
+      border-radius: 10px;
+      max-width: 50vw;
+      background: linear-gradient(rgb(255, 0, 0, 0.5), rgba(255, 0, 195, 0.5));
+      box-shadow: 15px 15px 15px 10px white;
+      display: flex;
+      flex-wrap: wrap;
+      margin-bottom: 50px;
+      padding: 5px;
+    "
+  > <% if (Array.isArray(message)) {%>
+    <% message.forEach(function(number) { %>
+    <p
+      style="
+        display: inline !important;
+        font-size: smaller;
+        font-weight: 600;
+        text-align: start;
+      "
+    >
+      <%= number %>
+    </p>
+    <% });} else{ %>
+      <p
+      style="
+        display: inline !important;
+        font-size: smaller;
+        font-weight: 600;
+        text-align: center !important;
+      "
+    ><%= message%></p>
+    <%}%>
+  </div>
+  <script>
+    const listpg = document.querySelector(".redanc");
+    if (listpg) {
+      setInterval(() => {
+        listpg.click();
+      }, 8000)
+    };
+  </script>
+</div>

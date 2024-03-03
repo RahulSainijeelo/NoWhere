@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title><%=title%></title>
+    <link rel="stylesheet" href="/css/vsm.css">
+    <link rel="stylesheet" href="/css/sm.css">
+    <link rel="stylesheet" href="/css/md.css">
+    <link rel="stylesheet" href="/css/lg.css">
+    <link rel="stylesheet" href="/css/style.css">
+    <link rel="stylesheet" href="/css/rating.css">
+    <link rel="icon" type="sv" href="/files/Icon.ico">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+  </head>
+  </head>
+  <body>
+    <%- include("../includes/nav.ejs") %>
+    <%- include("../includes/search.ejs") %>
+    <%- include("../includes/successMsg.ejs") %>
+    <div class="bcontainer"><%-body%></div>
+    <%-include("../includes/footer.ejs") %>
+    <div class="incsg hidden">
+      <%- include("../user/signUp.ejs") %>
+    </div>
+    <div class="inclg hidden"><%- include("../user/login.ejs") %></div>
+    <script src="/js/script.js"></script>
+    <script src="/js/navScript.js"></script>
+    <script src="/js/search.js"></script>
+  </body>
+</html>
+
+
+<!-- 
+let lastClickedPage = null; // Track the last clicked page
+
+// Function to hide all pages
+function hideAllPages() {
+    login.classList.add("hidden");
+    signup.classList.add("hidden");
+    document.body.classList.remove("no-scroll");
+}
+
+// Function to show a specific page
+function showPage(page) {
+    hideAllPages();
+    page.classList.remove("hidden");
+    document.body.classList.add("no-scroll");
+    lastClickedPage = page;
+}
+
+// Show the login page when the login link is clicked
+loginln.addEventListener("click", function(event) {
+    event.preventDefault(); // Prevent default link behavior
+    if (lastClickedPage !== loginPage) {
+        showPage(loginPage);
+    } else {
+        hideAllPages();
+    }
+});
+
+// Show the signup page when the signup link is clicked
+signUpln.addEventListener("click", function(event) {
+    event.preventDefault(); // Prevent default link behavior
+    if (lastClickedPage !== signUp) {
+        showPage(signUp);
+    } else {
+        hideAllPages();
+    }
+});
+
+// Hide all pages when clicking outside of them
+document.addEventListener("click", function(event) {
+    if (!login.contains(event.target) && event.target !== loginln &&
+        !signUp.contains(event.target) && event.target !== signUpln) {
+        hideAllPages();
+    }
+});
+}); -->
+
+
+
+
+
+
+

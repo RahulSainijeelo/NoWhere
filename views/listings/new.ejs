@@ -1,0 +1,99 @@
+<%layout("/layouts/boilerplate")%>
+<div class="newbody">
+  <h2 class="headingnew">Create a Listing</h2>
+  <form
+    class="newform"
+    method="post"
+    action="/listings"
+    id="newForm"
+    enctype="multipart/form-data"
+    novalidate
+  >
+    <div>
+      <label for="titlenew"> Title:</label> <br /><input
+        class="inpnew"
+        type="text"
+        name="listing[title]"
+        id="titlenew"
+        placeholder="input title"
+        required
+      />
+      <div class="error"></div>
+    </div>
+    <div>
+      <label for="descnew"> Description:</label>
+      <br /><input
+        class="inpnew"
+        type="text"
+        id="descnew"
+        name="listing[description]"
+        placeholder="enter desc..."
+        required
+      />
+      <div class="error"></div>
+    </div>
+    <div>
+      <p>Upload Image:</p>
+      <label for="imagenew" class="inpnewFile" style="text-align: start;padding-top: 3px;">Choose File</label>
+      <input
+        name="listing[image]"
+        id="imagenew"
+        type="file"
+        class="inpnew"
+        onchange="displayFileName()"
+        placeholder="give link of the image"
+        required
+      />
+      <div class="error fileNae"></div>
+    </div>
+    <div>
+      <label for="pricenew">Price:</label>
+      <br /><input
+        class="inpnew"
+        id="pricenew"
+        type="number"
+        name="listing[price]"
+        placeholder="enter price"
+        required
+      />
+      <div class="error"></div>
+    </div>
+    <div>
+      <label for="locationnew">Location:</label>
+      <br /><input
+        class="inpnew"
+        id="locationnew"
+        type="text"
+        name="listing[location]"
+        placeholder="enter location"
+        required
+      />
+      <div class="error"></div>
+    </div>
+    <div>
+      <label for="countrynew">Country:</label>
+      <br /><input
+        class="inpnew"
+        type="text"
+        id="countrynew"
+        name="listing[country]"
+        placeholder="enter country"
+        required
+      />
+      <div class="error"></div>
+    </div>
+    <div>
+      <label for="categoryNew">Select Category:</label>
+      <br /><%- include("../includes/category.ejs") %>
+      <div class="error"></div>
+    </div>
+    <button type="submit" class="newbtn">Submit</button>
+  </form>
+
+  <script>function displayFileName() {
+    const input = document.getElementById('imagenew');
+    const fileNameDisplay = document.querySelector('.fileNae');
+    const fileName = input.files[0].name;
+    fileNameDisplay.textContent = fileName;
+}</script>
+</div>

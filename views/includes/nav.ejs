@@ -1,0 +1,52 @@
+<nav class="navDiv">
+  <div class="navbar">
+    <a class="navbar-brand redanc" href="/listings">
+      <svg width="110" height="32" style="display: inline;">
+        <g>
+         <path id="svg_17" d="m9.1254,13.60579" opacity="NaN" stroke-width="0" stroke="#000" fill="#e81e1e"/>
+         <path stroke="#000" id="svg_18" d="m1.22636,16.86146l0.25218,-9.6238l3.56846,7.63707c0.07977,0.10513 1.24159,-4.87557 1.24159,-4.87557c0,0 -2.07469,2.76706 -2.15446,2.66192c0.07977,0.10513 -1.33102,12.28018 -0.41816,-1.22305c0.91286,-13.50323 33.36097,-3.0991 33.2812,-3.20424c0.07977,0.10513 -31.04054,11.39472 -31.12031,11.28959c0.07977,0.10513 -2.24388,8.29562 -2.24388,8.29562" opacity="NaN" stroke-width="0" fill="#e81e1e"/>
+         <line opacity="NaN" stroke-width="0" id="svg_19" y2="22.42176" x2="38.19727" y1="11.15646" x1="38.034" stroke="#000" fill="#e81e1e"/>
+         <text font-style="normal" font-weight="normal" transform="matrix(0.931999 0 0 1.01446 5.37915 -1.10131)" stroke="#000" xml:space="preserve" text-anchor="start" font-family="'Nunito SemiBold'" font-size="24" id="svg_20" y="22.17776" x="35.50126" stroke-width="0" fill="#d31d1d">ωαи∂єя</text>
+        </g>
+       </svg>
+    </a>
+    <span
+    ><form action="/search" method="get" class="searchForm"><input id="searchInput" type="text" name="query" placeholder="type here..." />
+    <button type="submit" class="searchbtn">Search</button></form>
+  </span>
+    <div class="toggler togglerOff">
+      <input type="checkbox" class="bt toggler btnn2" />
+      <div class="navln"></div>
+      <div class="navln"></div>
+      <div class="navln"></div>
+    </div>
+    <div class="toggler dv">
+      <input type="checkbox" class="bt toggler btnn" />
+      <div class="navln"></div>
+      <div class="ln2"></div>
+    </div>
+
+    <div class="collaps">
+      <span class="navbar-nav">
+        <p class="nav-item">
+          <a class="nav-link" href="/listings">All Listings</a>
+        </p>
+        <p class="nav-item">
+          <a class="nav-link" href="/listings/new">New Listing</a>
+        </p>
+        <% if (!currUser) { %>
+        <p class="nav-item">
+          <a class="nav-link signUpLgln">Sign up</a>
+        </p>
+        <p class="nav-item">
+          <a class="nav-link loginLgln">Login</a>
+        </p>
+        <%}%> <% if (currUser) { %>
+        <p class="nav-item">
+          <a href="/logout" class="nav-link">Logout</a>
+        </p>
+        <%}%>
+      </span>
+    </div>
+  </div>
+</nav>

@@ -1,0 +1,176 @@
+@media screen and (orientation: landscape) and (min-width: 950px) and (max-width: 1127px) {
+    .crd {
+        margin-bottom: 2rem;
+        border: none;
+        margin-inline-end: 1rem;
+        background-color: transparent;
+        width: 30%;
+    }
+
+    .crd-body {
+        height: 90px;
+        font-size: 1rem;
+        position: relative;
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    }
+
+    .crd-text {
+        display: inline;
+        font-size: 1rem;
+    }
+
+    .price {
+        font-size: 1rem;
+        font-weight: 500;
+        margin-top: 0;
+        text-decoration: underline;
+    }
+
+    .showdim {
+        width: 50vw;
+        height: 350px;
+        margin-top: 10px;
+        border-radius: 15px;
+        margin-bottom: 1rem;
+    }
+
+    .showbd {
+        display: flex;
+        flex-direction: column;
+        margin-left: 5vw;
+        margin-right: 5vw;
+    }
+
+    hr {
+        width: 50vw;
+        margin-left: 0;
+    }
+
+    .showdt {
+        font-size: 1.5rem;
+        font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    }
+
+    .showedit {
+        text-decoration: none;
+        color: white;
+        border-radius: 8px;
+        padding:5.9px 10px ;
+        background-color: #279EFF;
+        display: inline-block;
+        transition: all 0.1s ease-in;
+    }
+
+    .newbody {
+        width: 40vw;
+        margin-left: 30vw;
+        margin-top: .5vw;
+    }
+
+    .showBody {
+        width: 60vw;
+        margin-left: 20vw;
+    }
+
+    .inpnew {
+        width: 30vw;
+    }
+    .inpnewFile {
+        width: 30vw;
+    }
+    .showedit:hover {
+        background-color: #0C356A;
+    }
+
+    .showdlb {
+        display: inline;
+        height: 2rem;
+        width: 100px;
+        color: white;
+        border-radius: 8px;
+        border: none;
+        background-color: #fe424d;
+        transition: all 0.1s ease-in;
+    }
+
+    .showdlb:hover {
+        background-color: #DF2E38;
+    }
+
+    .navbar-brand {
+        display: inline;
+    }
+    #searchInput{
+        width: 20vw;
+        margin-left: 15rem;
+        height: 2rem;
+        border-radius:10px;
+        border: 1px solid rgb(0, 0, 0,.3);
+    }
+    #searchInput:focus{
+        outline: none;
+        background-color: white;
+        border: 1px solid blue !important;
+    }
+    .searchbtn{
+        position: relative;
+        height: 2.1rem;
+        right: 59px;
+        border-radius:0px 10px 10px 0px;
+        border: none;
+        background-color: hsl(356, 99%, 63%);
+        color: aliceblue;
+    }
+    .searchbtn:hover {
+        background-color: #e12b37;
+    }
+    .searchDiv{
+        min-height: 0 !important;
+        max-height: 20rem;
+        width: 20.36vw;
+        z-index: 5;
+        position: fixed;
+        top: 55px;
+        background-color: #fff;
+        border-radius:0px 0px 10px 10px;
+        margin-left: 24.4rem;
+        overflow-x: hidden;
+        word-wrap: none;
+        border: 1px solid blue !important;
+    }
+    .searchDiv::-webkit-scrollbar{
+        width: 10px;
+    }
+
+    .searchDiv a{
+        text-decoration: none;
+        color: black;
+    }
+
+    .collaps {
+        display: inline;
+        position: absolute;
+        left: 62.2vw;
+    }
+
+    .nav-item {
+        display: inline;
+        padding-left: 5px;
+        margin-inline-start: 3px;
+    }
+
+    .toggler,
+    .togOff {
+        display: none !important;
+    }
+
+    #signUpLg {
+        width: 35vw;
+        margin-left: 30vw;
+    }
+
+
+    #signUpLg input {
+        width: 30vw;
+    }
+}

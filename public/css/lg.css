@@ -1,0 +1,178 @@
+@media screen and (orientation: landscape) and (min-width: 1128px) {
+    .crd {
+        margin-bottom: 2rem !important;
+        border: none;
+        margin-right: 1vw;
+        background-color: transparent;
+        width: 23vw;
+        
+    }
+
+    .crd-body {
+        height: 70px;
+        font-size: 1rem;
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        position: relative;
+    }
+
+    
+    .crd-text{
+        display: inline;
+        font-size: 1rem;
+    }
+    .price {
+        font-size: 1rem;
+        font-weight:500;
+        margin-top: 0;
+        text-decoration: underline;
+    }
+
+    .showdim {
+        width: 30vw;
+        height: 300px;
+        margin-top: 10px;
+        border-radius: 15px;
+        margin-bottom: 1rem;
+    }
+
+    .showbd {
+        display: flex;
+        flex-direction: column;
+        margin-left: 10vw;
+    }
+
+    hr {
+        width: 30vw;
+        margin-left: 0;
+    }
+
+    .showdt {
+       font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+       font-size: 1rem;
+       margin-right: 10vw;
+    }
+
+    .showedit {
+        text-decoration: none;
+        color: white;
+        border-radius: 8px;
+        padding: 4.5px 10px;
+        background-color: #279EFF;
+        /* margin-left: 35vw; */
+        display: inline-block;
+        transition: all 0.1s ease-in;
+    }
+
+    .showedit:hover {
+        background-color: #0C356A;
+    }
+
+    .showdlb {
+        margin-left: auto;
+        display: inline;
+        height: 1.9rem;
+        width: 100px;
+        color: white;
+        border-radius: 8px;
+        border: none;
+        background-color: #fe424d;
+        transition: all 0.1s ease-in;
+    }
+
+    .showdlb:hover {
+        background-color: #DF2E38;
+    }
+
+    .newbody{
+        width: 40vw;
+        margin-left: 30vw;
+        margin-top: .5vw;
+    }
+
+    .inpnew{
+        width: 30vw;
+    }
+    .inpnewFile{
+        width: 30vw;
+    }
+
+    .showBody{
+        width: 50vw;
+        margin-left: 25vw;
+    }
+
+    .navbar-brand {
+        display: inline;
+    }
+
+    .collaps {
+        display: flex;
+        position: absolute;
+        left:67.8vw;
+    }
+
+    .nav-item {
+        display: inline;
+        padding-left: 5px;
+        margin-inline-start: 3px;
+    }
+
+    #searchInput{
+        width: 20vw;
+        margin-left: 25rem;
+        height: 2rem;
+        border-radius:10px;
+        border: 1px solid rgb(0, 0, 0,.3);
+        position: relative;
+    }
+    #searchInput:focus{
+        outline: none;
+        background-color: white;
+       border: 1px solid blue !important;
+    }
+    .searchbtn{
+        position: relative;
+        height: 2.1rem;
+        right: 60px;
+        border-radius:0px 10px 10px 0px;
+        border: none;
+        background-color: hsl(356, 99%, 63%);
+        color: aliceblue;
+    }
+    .searchbtn:hover {
+        background-color: #e12b37;
+    }
+    .searchDiv{
+        min-height: 0;
+        max-height: 20rem;
+        width: 20.31vw;
+        z-index: 5;
+        position: fixed;
+        top: 57px;
+        border: 1px solid blue !important;
+        border-top: none !important;
+        background-color: #fff;
+        border-radius:0px 0px 10px 10px;
+        margin-left: 34.37rem;
+        overflow-x: hidden;
+        word-wrap: none;
+    }
+    .searchDiv a{
+        text-decoration: none;
+        color: black;
+    }
+
+    .toggler,
+    .togOff {
+        display: none !important;
+    }
+    #signUpLg {
+        width: 25vw;
+        margin-left: 35vw;
+    }
+    
+    
+    #signUpLg input {
+        width: 20vw;
+    }
+}

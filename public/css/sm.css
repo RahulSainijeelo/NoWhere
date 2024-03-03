@@ -1,0 +1,234 @@
+@media screen and (orientation: landscape) and (min-width: 401px) and (max-width: 949px) {
+    .crd {
+        margin-bottom: 2rem;
+        border: none;
+        margin-right: 2vw;
+        background-color: transparent;
+        width: 40%;
+        
+    }
+
+    .crd-body {
+        height: 90px;
+        font-size: 1rem;
+        position: relative;
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    }
+
+    .crd-text{
+        display: inline;
+        font-size: 1rem;
+    }
+    .price {
+        font-size: 1rem;
+        font-weight:500;
+        margin-top: 0;
+        text-decoration: underline;
+    }
+
+    .showdim {
+        width: 50vw;
+        margin-left: 5vw;
+        height: 350px !important;
+        border-radius: 15px;
+        margin-bottom: 1rem;
+        margin-top: 10px;
+    }
+
+    .showbd {
+        display: flex;
+        flex-direction: column;
+        margin-top: 5px;
+        margin-right: 5vw;
+        font-size: 1.2rem;
+    }
+
+    hr {
+        width: 50vw;
+        margin-left: 5vw;
+    }
+
+    .showdt {
+       margin-left: 5vw;
+       font-size: 1rem !important;
+    }
+
+    .showedit {
+        text-decoration: none;
+        color: white;
+        background-color: #279EFF;
+        border-radius: 8px;
+        margin-left: 5vw;
+        padding: 4px 20px;
+        display: inline-block;
+        transition: all 0.1s ease-in;
+    }
+
+    .showedit:hover {
+        background-color: #0C356A;
+    }
+
+    .showdlb {
+        display: inline;
+        height: 1.9rem;
+        width: 100px;
+        color: white;
+        border-radius: 8px;
+        border: none;
+        background-color: #fe424d;
+        transition: all 0.1s ease-in;
+    }
+
+    .showdlb:hover {
+        background-color: #DF2E38;
+    }
+    .leaveReview{
+        width: 48vw !important;
+    }
+
+    .newbody{
+        width: 60vw;
+        margin-left: 20vw;
+    }
+    .showBody{
+        width: 60vw;
+        margin-left: 20vw;
+    }
+
+    .inpnew{
+        width: 50vw;
+    }
+    .inpnewFile{
+        width: 50vw;
+    }
+
+    #searchInput{
+        width: 20vw;
+        margin-left: 8rem;
+        height: 2rem;
+        border-radius:10px;
+        border: 1px solid rgb(0, 0, 0,.3);
+    }
+    #searchInput:focus{
+        outline: none;
+        background-color: white;
+        border: 1px solid blue !important;
+    }
+    .searchbtn{
+        position: relative;
+        height: 2.1rem;
+        right: 59px;
+        border-radius:0px 10px 10px 0px;
+        border: none;
+        background-color: hsl(356, 99%, 63%);
+        color: aliceblue;
+    }
+    .searchbtn:hover {
+        background-color: #e12b37;
+    }
+    .searchDiv{
+        width: 20.55vw;
+        max-height: 20rem;
+        z-index: 5;
+        position: fixed;
+        top: 55px;
+        background-color: #fff;
+        border-radius:0px 0px 10px 10px;
+        margin-left: 17.39rem;
+        overflow-x: hidden;
+        word-wrap: none;
+        border: 1px solid blue !important;
+    }
+    .searchDiv::-webkit-scrollbar{
+        width: 0;
+    }
+
+
+    .searchDiv a{
+        text-decoration: none;
+        color: black;
+    }
+
+    .collaps{
+        display: none !important;
+    }
+
+    #divNav{
+        background-color: #fff !important;
+        position: fixed !important;
+        width: 30% !important;
+        top: 60px;
+        right: 3vw !important;
+        display: flex !important;
+        justify-content: center !important;
+        flex-wrap: wrap;
+        z-index: 15 !important;
+        border-radius: 15px;
+        box-shadow: 3px -4px 44px -8px rgba(0,0,0,0.25);
+    }
+    .navItems{
+      margin-left: 0px !important;
+      margin-right: 0 !important;
+      margin-bottom: 15px !important;
+    }
+    .navbar-nav{
+        margin-left: 0 !important;
+        margin-right: 0 !important;
+    }
+
+    .toggler{
+        width: 50px;
+        height: 35px;
+        position: absolute;
+        right: 0;
+        border:1px solid #5b5b5b;
+        background-color: transparent;
+        border-radius: 8px;
+        z-index: 20;
+    }
+
+    .dv{
+        margin-right: 12vw;
+    }
+
+    .dv .navln{
+        transform: rotate(-45deg)translate(-6px,6px);
+    }
+
+    .dv .ln2{
+        transform: rotate(45deg);
+    }
+
+    .togglerOff{
+        margin-right: 12vw;
+    }
+    .navln,.ln2{
+        width: 30px;
+        height: 2px;
+        background-color: black;
+        margin-block-start: 7px;
+        margin-left: 10px;
+    }
+
+    .btnn,.btnn2{
+        opacity: 0;
+    }
+
+    #signUpLg hr {
+        margin-left: -5% !important;
+        width: 109% !important;
+    }
+    
+    #signUpLg {
+        width: 50vw;
+        margin-left: 25vw;
+    }
+    
+    
+    #signUpLg input {
+        width: 40vw;
+    }
+    .cnclg hr{
+        width: 50% !important;
+    }
+}

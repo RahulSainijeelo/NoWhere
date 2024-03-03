@@ -1,0 +1,228 @@
+@media (orientation:portrait) {
+    .crd-body {
+        height: 90px;
+        font-size: 1rem;
+        position: relative;
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        /* text-align: start; */
+    }
+
+    .crd {
+        margin-bottom: 2rem;
+        border: none;
+        background-color: transparent;
+        width: 90%;
+    }
+
+    .crd-text{
+        display: inline;
+        font-size: 1rem;
+    }
+    .price {
+        margin-top: 0;
+        font-size: 1rem;
+        font-weight:500;
+        text-decoration: underline;
+    }
+
+    .showdim {
+        width: 96%;
+        height: 300px;
+        margin-top: 7px;
+        margin-left: 2vw;
+        border-radius: 15px;
+    }
+
+    .showbd {
+        display: flex;
+        flex-direction: column;
+    }
+    
+    hr {
+        width: 80vw;
+        margin-left: 5vw;
+        margin-right: 5vw;
+    }
+
+    .showdt {
+        margin-left: 5vw;
+        margin-right: 5vw;
+        font-size: 1rem;
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+    }
+
+    .showedit {
+        text-decoration: none;
+        color: white;
+        background-color: #279EFF;
+        border-radius: 8px;
+        padding: 5.5px 20px;
+        margin-left: 5vw;
+        display: inline-block;
+        transition: all 0.1s ease-in;
+    }
+
+    .showedit:hover {
+        background-color: #0C356A;
+    }
+
+    .showdlb {
+        margin-left: auto;
+        display: inline;
+        height: 2rem;
+        width: 100px;
+        color: white;
+        border-radius: 8px;
+        border: none;
+        background-color: #fe424d;
+        transition: all 0.1s ease-in;
+    }
+
+    .showdlb:hover {
+        background-color: #DF2E38;
+    }
+
+    .showBody{
+        width: 90vw;
+        margin-left: 2vw;
+    }
+
+    .leaveReview{
+        width: 96% !important;
+    }
+
+    .newbody{
+        width: 70vw;
+        margin-left: 15vw;
+    }
+
+    .inpnew{
+        width: 60vw;
+    }
+    .inpnewFile{
+        width: 60vw;
+    }
+
+    #searchInput{
+        width: 25vw;
+        margin-left: 2rem;
+        height: 2rem;
+        border-radius:10px;
+        border: 1px solid rgb(0, 0, 0,.3);
+    }
+    #searchInput:focus{
+        outline: none;
+        background-color: white;
+        border: 1px solid blue !important;
+    }
+    .searchbtn{
+        position: relative;
+        height: 2.1rem;
+        right: 60px;
+        border-radius:0px 10px 10px 0px;
+        border: none;
+        background-color: hsl(356, 99%, 63%);
+        color: aliceblue;
+    }
+    .searchbtn:hover {
+        background-color: #e12b37;
+    }
+    .searchDiv{
+        width: 25.79vw;
+        max-height: 20rem;
+        z-index: 5;
+        position: fixed;
+        top: 55px;
+        background-color: #fff;
+        border-radius:0px 0px 10px 10px;
+        border: 1px solid blue !important;
+        margin-left: 11.4rem;
+        overflow-x: hidden;
+        word-wrap: none;
+    }
+
+    .searchDiv::-webkit-scrollbar{
+        width: 0;
+    }
+    .searchDiv a{
+        text-decoration: none;
+        color: black;
+    }
+
+    .collaps{
+        display: none !important;
+    }
+
+    #divNav{
+        background-color: #fff !important;
+        position: fixed !important;
+        width: 30% !important;
+        top: 60px;
+        right: 4vw !important;
+        display: flex !important;
+        justify-content: center;
+        flex-wrap: wrap;
+        z-index: 15 !important;
+        border-radius: 15px;
+        box-shadow: 3px -4px 44px -8px rgba(0,0,0,0.25);
+    }
+
+    .navItems{
+      margin-bottom: 1px !important;
+    }
+
+    .toggler{
+        width: 50px;
+        height: 35px;
+        position: absolute;
+        right: 0;
+        border:1px solid #5b5b5b;
+        background-color: transparent;
+        border-radius: 8px;
+        z-index: 20;
+    }
+
+    .dv{
+        margin-right: 12vw;
+    }
+
+    .dv .navln{
+        transform: rotate(-45deg)translate(-6px,6px);
+    }
+
+    .dv .ln2{
+        transform: rotate(45deg);
+    }
+
+    .togglerOff{
+        margin-right: 12vw;
+    }
+    .navln,.ln2{
+        width: 30px;
+        height: 2px;
+        background-color: black;
+        margin-block-start: 7px;
+        margin-left: 10px;
+    }
+
+    .btnn,.btnn2{
+        opacity: 0;
+    }
+    #signUpLg {
+        width: 60vw;
+        margin-left: 15vw;
+    }
+    
+    
+    #signUpLg input {
+        width: 50vw;
+    }
+}
+
+.searchResults{
+    margin: 5px 0px 10px 2vw;
+    background-color: #fff;
+    border-radius: 10px;
+    width: 92vw;
+    padding: 10px;
+}

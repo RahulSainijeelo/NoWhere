@@ -1,0 +1,17 @@
+<% if (success && success.length) {%>
+<div class="flMessage">
+    <p><%= success%></p>
+</div>
+<%}%>
+<% if (failure && failure.length) {%>
+  <div class="flflMessage">
+      <p><%= failure%></p>
+  </div>
+  <%}%>
+
+<script>
+    const flMessage = document.querySelector(".flMessage");
+    if(flMessage){setInterval(() => {
+        flMessage.style.display = "none";
+    }, 2000);};
+</script>
