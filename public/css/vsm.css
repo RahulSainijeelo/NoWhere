@@ -117,8 +117,8 @@
     }
     .searchbtn{
         position: relative;
-        height: 2.23rem;
-        right: 60px;
+        height: 2.21rem;
+        right: 58px;
         border-radius:0px 10px 10px 0px;
         border: none;
         background-color: hsl(356, 99%, 63%);
@@ -128,7 +128,7 @@
         background-color: #e12b37;
     }
     .searchDiv{
-        width: 26.25vw;
+        width: 26.238vw;
         max-height: 20rem;
         z-index: 5;
         position: fixed;
@@ -136,7 +136,7 @@
         background-color: #fff;
         border-radius:0px 0px 10px 10px;
         border: 1px solid blue !important;
-        margin-left: 7.59rem;
+        margin-left: 7.57rem;
         overflow-x: hidden;
         word-wrap: none;
     }
