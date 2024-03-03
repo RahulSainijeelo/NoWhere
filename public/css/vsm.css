@@ -105,7 +105,6 @@
 
     #searchInput{
         width: 25vw;
-        margin-left: 2rem;
         height: 2rem;
         border-radius:10px;
         border: 1px solid rgb(0, 0, 0,.3);
@@ -128,7 +127,7 @@
         background-color: #e12b37;
     }
     .searchDiv{
-        width: 25.79vw;
+        width: 25.83vw;
         max-height: 20rem;
         z-index: 5;
         position: fixed;
@@ -136,7 +135,7 @@
         background-color: #fff;
         border-radius:0px 0px 10px 10px;
         border: 1px solid blue !important;
-        margin-left: 11.4rem;
+        margin-left: 6.93rem;
         overflow-x: hidden;
         word-wrap: none;
     }
@@ -217,12 +216,20 @@
     #signUpLg input {
         width: 50vw;
     }
-}
-
-.searchResults{
+    .searchResults{
     margin: 5px 0px 10px 2vw;
     background-color: #fff;
     border-radius: 10px;
     width: 92vw;
     padding: 10px;
 }
+    .navbar {
+    padding-left: 1px !important;
+    width: 98.8vw !important;
+
+}
+    .footer{
+    width:99vw !important;
+}
+}
+
