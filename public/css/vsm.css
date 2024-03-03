@@ -106,6 +106,7 @@
     #searchInput{
         width: 25vw;
         height: 2rem;
+        margin-left:10px;
         border-radius:10px;
         border: 1px solid rgb(0, 0, 0,.3);
     }
@@ -116,7 +117,7 @@
     }
     .searchbtn{
         position: relative;
-        height: 2.1rem;
+        height: 2.23rem;
         right: 60px;
         border-radius:0px 10px 10px 0px;
         border: none;
@@ -127,7 +128,7 @@
         background-color: #e12b37;
     }
     .searchDiv{
-        width: 25.83vw;
+        width: 26.25vw;
         max-height: 20rem;
         z-index: 5;
         position: fixed;
@@ -135,7 +136,7 @@
         background-color: #fff;
         border-radius:0px 0px 10px 10px;
         border: 1px solid blue !important;
-        margin-left: 6.93rem;
+        margin-left: 7.59rem;
         overflow-x: hidden;
         word-wrap: none;
     }
