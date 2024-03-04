@@ -117,11 +117,7 @@
     }
     .searchbtn{
         position: relative;
-        height: 2.21rem;
         right: 58px;
-        border-radius:0px 10px 10px 0px;
-        border: none;
-        background-color: hsl(356, 99%, 63%);
         color: aliceblue;
     }
     .searchbtn:hover {
