@@ -130,14 +130,6 @@
         background-color: white;
        border: 1px solid blue !important;
     }
-    .searchbtn{
-        position: relative;
-        right: 60px;
-        font-weight:300;
-    }
-    .searchbtn:hover {
-        font-weight:500;
-    }
     .searchDiv{
         min-height: 0;
         max-height: 20rem;
