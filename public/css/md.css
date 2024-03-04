@@ -115,15 +115,14 @@
     .searchDiv{
         min-height: 0 !important;
         max-height: 20rem;
-        width: 20.36vw;
+        width: 20.34vw;
         z-index: 5;
         position: fixed;
         top: 55px;
         background-color: #fff;
         border-radius:0px 0px 10px 10px;
-        margin-left: 24.4rem;
+        margin-left: 23.9rem;
         overflow-x: hidden;
-        word-wrap: none;
         border: 1px solid blue !important;
     }
     .searchDiv::-webkit-scrollbar{
