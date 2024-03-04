@@ -104,9 +104,9 @@
     }
 
     #searchInput{
-        width: 6rem;
+        width: 30vw;
         height: 2rem;
-        margin-left:10vw;
+        margin-left:2rem;
         border-radius:10px;
         border: 1px solid rgb(0, 0, 0,.3);
     }
@@ -117,7 +117,7 @@
     }
     
     .searchDiv{
-        width: 26.238vw;
+        width: 31.3vw;
         max-height: 20rem;
         z-index: 5;
         position: fixed;
@@ -125,9 +125,8 @@
         background-color: #fff;
         border-radius:0px 0px 10px 10px;
         border: 1px solid blue !important;
-        margin-left: 7.57rem;
+        margin-left: 5.57rem;
         overflow-x: hidden;
-        word-wrap: none;
     }
 
     .searchDiv::-webkit-scrollbar{
