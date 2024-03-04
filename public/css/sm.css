@@ -117,7 +117,6 @@
     .searchbtn{
         position: relative;
         right: 59px;
-        color: aliceblue;
         font-weight:300;
     }
     .searchbtn:hover {
