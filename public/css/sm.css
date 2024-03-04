@@ -231,6 +231,9 @@
     .cnclg hr{
         width: 50% !important;
     }
+    .footer{
+    width:99vw !important;
+   }
     .lgIcon{
         display:none !important;
     }
