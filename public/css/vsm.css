@@ -211,15 +211,12 @@
     border-radius: 10px;
     width: 92vw;
     padding: 10px;
-}
+    }
     .navbar {
     padding-left: 1px !important;
     width: 98.8vw !important;
 
-}
-    .footer{
-    width:99vw !important;
-}
+    }
     .lgIcon{
         display:none !important;
     }
