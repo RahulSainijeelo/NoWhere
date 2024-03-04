@@ -173,4 +173,10 @@
     #signUpLg input {
         width: 30vw;
     }
+    .lgIcon{
+        display:inline !important;
+    }
+    .smallIcon{
+        display:none !important;
+    }
 }
