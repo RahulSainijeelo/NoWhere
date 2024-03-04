@@ -227,6 +227,7 @@
     }
     .smallIcon{
         display:inline !important;
+        margin: -17px 0px 0px 6px;
     }
     footer{
         width:102.5vw !important;
