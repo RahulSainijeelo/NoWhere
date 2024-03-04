@@ -133,17 +133,16 @@
     .searchDiv{
         min-height: 0;
         max-height: 20rem;
-        width: 20.31vw;
+        width: 20.3vw;
         z-index: 5;
         position: fixed;
-        top: 57px;
+        top: 58.5px;
         border: 1px solid blue !important;
         border-top: none !important;
         background-color: #fff;
         border-radius:0px 0px 10px 10px;
-        margin-left: 34.37rem;
+        margin-left: 33.9rem;
         overflow-x: hidden;
-        word-wrap: none;
     }
     .searchDiv a{
         text-decoration: none;
