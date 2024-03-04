@@ -118,10 +118,10 @@
     .searchbtn{
         position: relative;
         right: 58px;
-        color: aliceblue;
+        font-weight:300;
     }
     .searchbtn:hover {
-        background-color: #e12b37;
+        font-weight:500;
     }
     .searchDiv{
         width: 26.238vw;
