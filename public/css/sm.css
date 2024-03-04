@@ -231,4 +231,10 @@
     .cnclg hr{
         width: 50% !important;
     }
+    .lgIcon{
+        display:none !important;
+    }
+    .smallIcon{
+        display:inline !important;
+    }
 }
