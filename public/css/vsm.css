@@ -232,5 +232,11 @@
     .footer{
     width:99vw !important;
 }
+    .lgIcon{
+        display:none !important;
+    }
+    .smallIcon{
+        display:inline !important;
+    }
 }
 
