@@ -393,3 +393,12 @@ input[type="file"] {
 .searchResultHr{
     margin: 0;
 }
+
+.searchbtn {
+    position: relative;
+    right: 40px;
+    top: 7px;
+    font-weight: 300;
+    background-color: transparent;
+    border: none;
+}
