@@ -1,6 +1,6 @@
 @media screen and (orientation: landscape) and (min-width: 950px) and (max-width: 1127px) {
     .crd {
-        margin-bottom: 2rem;
+        margin-bottom: 1rem;
         border: none;
         margin-inline-end: 1rem;
         background-color: transparent;
