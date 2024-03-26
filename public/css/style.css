@@ -297,7 +297,6 @@ input::-webkit-inner-spin-button {
 #signUpLg {
     display: flex;
     flex-direction: column;
-    overflow-y:auto;
     margin-top: 80px;
     padding: 25px;
     position: fixed;
