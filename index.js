@@ -90,9 +90,6 @@ app.use((req, res, next) => {
   next();
 });
 
-app.use("/",(req,res)=>{
-res.redirect("/listings");
-});
 app.use("/listings", listings);
 
 app.use(async (err, req, res, next) => {
