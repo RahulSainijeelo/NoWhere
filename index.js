@@ -88,8 +88,11 @@ app.use((req, res, next) => {
   res.locals.failure = req.flash("failure");
   res.locals.currUser = req.user;
   next();
-})
+});
 
+app.use("/",(req,res)=>{
+res.redirect("/listings");
+});
 app.use("/listings", listings);
 
 app.use(async (err, req, res, next) => {
